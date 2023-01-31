@@ -34,7 +34,9 @@ namespace StopWatch
             System.Console.WriteLine(c + decimais);
             Thread.Sleep(time);
         }
-
+        Console.WriteLine("Contagem finalizada");
+        Thread.Sleep(2000);
+        Menu();
         }
     }
 }
